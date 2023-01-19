@@ -13,7 +13,7 @@ void startMenu() {
 	int highScore;
     // Read high score
 	FILE *highScoreFile;
-	highScoreFile = fopen("./highScore.txt", "r");
+	highScoreFile = fopen("./texto.txt", "r");
 	fscanf(highScoreFile, "%d", &highScore);
 	fclose(highScoreFile);
 	int maxX = getmaxx(stdscr)/2;
